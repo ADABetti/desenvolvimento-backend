@@ -13,7 +13,7 @@ public class PetRepository {
   private static final int ZERO_BYTES = 0;
 
   // caminho em que o novo arquivo ficará salvo:
-  private File arquivo = new File("src/main/resources/database/tb_pets.json");
+  private File arquivo = new File("Pets/src/main/resources/database/tb_pets.json");
 
   // Permite que manipulemos arquivos (JACKSON):
   private ObjectMapper objectMapper = new ObjectMapper();
